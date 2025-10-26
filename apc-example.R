@@ -8,4 +8,5 @@ data.asbestos
 apc.fit.table(data.asbestos, "poisson.response")
 fit.apc<- apc.fit.model(data.asbestos, "poisson.response", "APC")
 fit.apc$coefficients.canonical[1:8, ]
+
 apc.plot.fit(fit.apc)
